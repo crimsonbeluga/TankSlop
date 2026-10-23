@@ -73,3 +73,11 @@ desktop.ini
 *.swp
 *.swo
 *~
+# Only track the Scripts folder
+/*
+!/.gitignore
+!/.gitattributes
+!/Assets/
+/Assets/*
+!/Assets/Scripts/
+!/Assets/Scripts.meta
